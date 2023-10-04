@@ -1,30 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio Website</title>
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive personal portfolio website design tutorial</title>
 
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
 
+</head>
+<body>
+   
+<!-- header section starts  -->
 
-        <footer>
-            <h2 class="footer-title">Ishini's Portfolio</h2>
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div id="theme-toggler" class="fas fa-moon"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="images/main-im.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span class="hello">hello</span>
+        <h3> I'M <span>Ishini Hathurusinghe</span> </h3>
+
+        <h4>I am a <span class="type">
+            <span>
+              <span>Undergraduate</span>
+              <span>Law Enthusiast</span>
+              
+            </span>
+          </span>
+        </h4>
+
+        <p>I am a highly motivated
+            individual who is undertaking
+            bachelor’s in Information
+            Technology in a desired
+            university. I have skills in both
+            software and hardware and a
+            vast range of experience in
+            programming such as web
+            development, database
+            management, data structures
+            and algorithms. I am ready to
+            learn from the industry and
+            apply my knowledge to build my
+            career foundation</p>
+        <a href="#about" class="btn">about me</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about <span>me</span> </h1>
+
+    <div class="row">
+
+        <div class="box">
+            <h3 class="title">coding skills</h3>
+            <div class="progress">
+                <h3> html <span>95%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> css <span>80%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> Java <span>65%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> Flutter <span>75%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">professional skills</h3>
+            <div class="progress">
+                <h3> web design <span>98%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> web development <span>67%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> graphic design <span>75%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3> Web Automation <span>60%</span> </h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Projects</h3>
+            <div class="exp-box">
+                <h3>User Management System</h3>
+                <p>Using PHP,JS,CSS,MYSQL</p>
+            </div>
+            <div class="exp-box">
+                <h3>2D Game</h3>
+                <p>Using JS,CSS</p>
+            </div>
+            <div class="exp-box">
+                <h3>E-Commerce APP</h3>
+                <p>Using Flutter</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">education</h3>
+            <div class="exp-box">
+                <h3>Sri Lanka International Buddhist Academy </h3>
+                <p>Following B.Sc.in Information Technology</p>
+            </div>
+            <div class="exp-box">
+                <h3>Sri Lanka International Buddhist Academy</h3>
+                <p>Higher Diploma in Information Technology</p>
+            </div>
+            <div class="exp-box">
+                <h3>Sri Lanka Institute of Information Technology(SLIIT)</h3>
+                <p>Following a Software Quality Assurance Professional Program</p>
+            </div>
             
-        </footer>
+        </div>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-            crossorigin="anonymous"></script>
-    </body>
+    </div>
+
+    <div class="download">
+        <a href="https://drive.google.com/file/d/1FPbEej0T0spk4lxnQsBzaB45xg06tLIk/view?usp=sharing" class="btn"> download CV </a>
+    </div>
+
+</section>
+
+
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span>my</span> portfolio </h1>
+
+    <div class="button-container">
+        <div class="btn" data-filter="all">HTML</div>
+        <div class="btn" data-filter="design">CSS</div>
+        <div class="btn" data-filter="code">JS</div>
+        <div class="btn" data-filter="website">JAVA</div>
+        <div class="btn" data-filter="brand">FLUTTER</div>
+    </div>
+
+    <div class="image-container">
+
+        <div class="box design">
+            <img src="images/1.jpg" alt="">
+            <div class="info">
+                <h3>PROJECT TITLE</h3>
+            </div>
+        </div>
+
+        <div class="box design">
+            <img src="images/2.jpg" alt="">
+            <div class="info">
+                <h3>PROJECT TITLE</h3>
+            </div>
+        </div>
+
+        <div class="box design">
+            <img src="images/3.jpg" alt="">
+            <div class="info">
+                <h3>PROJECT TITLE</h3>
+            </div>
+        </div>
+
+        <div class="box code">
+            <img src="images/4.jpg" alt="">
+            <div class="info">
+                <h3>PROJECT TITLE</h3>
+            </div>
+        </div>
+
+        <div class="box code">
+            <img src="images/5.jpg" alt="">
+            <div class="info">
+                <h3>PROJECT TITLE</h3>
+            </div>
+        </div>
+
+        <div class="box website">
+            <img src="images/6.jpg" alt="">
+            <div class="info">
+                <h3>PROJECT TITLE</h3>
+            </div>
+        </div>
+
+        <div class="box brand">
+            <img src="images/7.jpg" alt="">
+            <div class="info">
+                <h3>PROJECT TITLE</h3>
+            </div>
+        </div>
+
+        <div class="box brand">
+            <img src="images/8.jpg" alt="">
+            <div class="info">
+                <h3>PROJECT TITLE</h3>
+            </div>
+        </div>
+
+        <div class="box brand">
+            <img src="images/9.jpg" alt="">
+            <div class="info">
+                <h3>PROJECT TITLE</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span>me</span> </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>my number</h3>
+            <p>076 750 7263</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>my email</h3>
+            <p>ishinihathurusinghe@gmail.com</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>my address</h3>
+            <p>Kandy, Sri Lanka </p>
+        </div>
+    </div>
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<div class="footer">created by <span> ishinihathurusinghe</span> | 2023!</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
 </html>
